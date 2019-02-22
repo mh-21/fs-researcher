@@ -1,0 +1,20 @@
+{
+  "name": "fs-researcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generateFilesList": "node src/index.js generateFilesList 1000000 .zip .csv .png .yaml",
+    "findFileName": "node src/index.js findFileName output/file_names_2019_02_21_08_47_14.txt devon.gulick.png,",
+    "findFileInDirectory": "node src/index.js findFileInDirectory C:\\agileNix\\projects\\agentabout-mobile\\node_modules\\@expo\\vector-icons\\website\\src index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^1.0.0",
+    "find": "^0.2.9",
+    "moment": "^2.24.0",
+    "random-name": "^0.1.2"
+  }
+}
